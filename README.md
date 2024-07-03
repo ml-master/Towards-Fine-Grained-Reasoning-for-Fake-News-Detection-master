@@ -1,20 +1,24 @@
 ## FinerFact
 
-This is the PyTorch implementation for the FinerFact model in the AAAI 2022 paper **Towards Fine-Grained Reasoning for Fake News Detection** ([Arxiv](https://arxiv.org/abs/2110.15064)). 
+### !! Unofficial  implementation
 
-```
-@article{jin2021towards,
-  title={Towards Fine-Grained Reasoning for Fake News Detection},
-  author={Jin, Yiqiao and Wang, Xiting and Yang, Ruichao and Sun, Yizhou and Wang, Wei and Liao, Hao and Xie, Xing},
-  journal={arXiv preprint arXiv:2110.15064},
-  year={2021}
-}
-```
+This is the PyTorch implementation for the FinerFact model in the AAAI 2022 paper Towards Fine-Grained Reasoning for Fake News Detection
 
-The implementation is based on [HuggingFace Transformers](https://huggingface.co/docs/transformers/index) and [KernelGAT](https://github.com/thunlp/KernelGAT/tree/master/kgat). 
+### MutualReinforce
 
-### Installation
-* Run `conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.2 -c pytorch`. **conda** is preferred over pip due to its stability on Windows
+the first part of the framework need  needs to be implemented from scratch, so the finally result will be different from the original.
+
+### Finally result
+
+![image-20240703102452196](C:\Users\m\AppData\Roaming\Typora\typora-user-images\image-20240703102452196.png)
+
+### Dataset
+
+[FakeNewsNet](https://github.com/KaiDMML/FakeNewsNet)
+
+- `gossipcop_fake.csv` - Samples related to fake news collected from GossipCop
+
+- `gossipcop_real.csv` - Samples related to real news collected from GossipCop
 
 ### Instruction to run code
 
@@ -30,4 +34,6 @@ The implementation is based on [HuggingFace Transformers](https://huggingface.co
 * run the `train.py` file using `kgat/` as the working directory:
   * `python train.py --outdir . --config_file P.ini`, or
   * `python train.py --outdir . --config_file G.ini`
+
+
 
