@@ -1,0 +1,11 @@
+*.gexf
+*.json
+*.gz
+*.txt
+/venv/
+/.idea/
+*/__pycache__/
+logs/*/
+*.pt
+*.tsv
+*.zip
