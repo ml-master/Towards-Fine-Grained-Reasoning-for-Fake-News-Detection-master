@@ -10,7 +10,7 @@ the first part of the framework need  needs to be implemented from scratch, so t
 
 ### Finally result
 
-![image-20240703102452196](.\result\result.png)
+![image](https://github.com/ml-master/Towards-Fine-Grained-Reasoning-for-Fake-News-Detection-master/blob/main/result/result.png)
 
 ### Dataset
 
